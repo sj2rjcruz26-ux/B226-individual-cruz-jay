@@ -9,6 +9,7 @@ public class Variable {
         String firstname = "Ronald Jay", middleinitial = "C", lastname = "Cruz";
     
             System.out.println("Fullname: " + firstname + " " + middleinitial + ". " + lastname);
+        
         //initialiazation
         
        // DT    Var     Value
