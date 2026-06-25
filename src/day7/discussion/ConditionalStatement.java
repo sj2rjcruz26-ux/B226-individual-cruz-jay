@@ -22,10 +22,10 @@ public class ConditionalStatement {
         }
         System.out.println(numberType);
 
-        float temp = 38.5f;
+        float temp = 39.5f;
         String tempResult;
 
-        if (temp >= 38.5) {
+        if (temp >= 39.5) {
             tempResult = "Fever";
         } else {
             tempResult = "Normal";
