@@ -20,13 +20,14 @@ public class Activity4_Cruz {
         if (num == 1) {
             System.out.println("You selected Option 1: Start Game");
         } else if (num == 2) {
-            System.out.println("You selected Option 1: Load Game");
+            System.out.println("You selected Option 2: Load Game");
         } else if (num == 3) {
-            System.out.println("You selected Option 1: Settings");
+            System.out.println("You selected Option 3: Settings");
         } else if (num == 4) {
-            System.out.println("You selected Option 1: Exit");
+            System.out.println("You selected Option 4: Exit");
         } else {
             System.out.println("Invalid choice. Please select a valid choice");
         }
+        input.close();
     }
 }
