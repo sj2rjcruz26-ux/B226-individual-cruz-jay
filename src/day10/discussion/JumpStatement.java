@@ -1,6 +1,5 @@
 package day10.discussion;
 
-import day9.discussion.*;
 
 public class JumpStatement {
 
