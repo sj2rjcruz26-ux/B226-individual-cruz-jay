@@ -1,6 +1,5 @@
 package day10.discussion;
 
-import day9.discussion.*;
 import java.util.Scanner;
 
 public class InfiniteLoop {
