@@ -6,5 +6,6 @@ public class Main {
         MethodInvocation obj = new MethodInvocation();
         obj.b();
         MethodInvocation.a();
+        //game game game
     }
 }
