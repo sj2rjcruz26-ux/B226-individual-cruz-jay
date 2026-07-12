@@ -10,19 +10,14 @@ public class Main {
 
         System.out.print("First Name: ");
         String firstName = input.nextLine();
-
         System.out.print("Middle Name: ");
         String middleName = input.nextLine();
-
         System.out.print("Last Name: ");
         String lastName = input.nextLine();
-
         System.out.print("Address: ");
         String address = input.nextLine();
-
         System.out.print("Email: ");
         String email = input.nextLine();
-
         System.out.print("Password: ");
         String password = input.nextLine();
 
@@ -36,7 +31,7 @@ public class Main {
                     password
             );
 
-            System.out.println("\n===== USER ACCOUNT INFORMATION =====");
+            System.out.println("\n===== USER ACCOUNT CREATED =====");
             System.out.println("Full Name: "
                     + user.getFirstName() + " "
                     + user.getMiddleName() + " "
@@ -45,7 +40,7 @@ public class Main {
             System.out.println("Email: " + user.getEmail());
             System.out.println("Address: " + user.getAddress());
 
-        } catch (IllegalArgumentException e) {
+        } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
 

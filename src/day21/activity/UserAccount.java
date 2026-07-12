@@ -2,24 +2,17 @@ package day21.activity;
 
 public class UserAccount {
 
-    private String firstName;
-    private String middleName;
-    private String lastName;
-    private String address;
-    private String email;
-    private String password;
+    private String firstName, middleName, lastName, address, email, password;
 
     // Constructor
     public UserAccount(String firstName, String middleName, String lastName,
-                       String address, String email, String password) {
-
+            String address, String email, String password) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
         this.address = address;
-
-        setEmail(email);
-        setPassword(password);
+        this.email = email;
+        this.password = password;
     }
 
     // Getters
@@ -64,22 +57,11 @@ public class UserAccount {
         this.address = address;
     }
 
-    // Email Validation
     public void setEmail(String email) {
-        if (email.matches("^[A-Za-z0-9+_.-]+@(.+)$")) {
-            this.email = email;
-        } else {
-            throw new IllegalArgumentException("Invalid Email Format!");
-        }
+        this.email = email;
     }
 
-    // Password Validation
     public void setPassword(String password) {
-        if (password.length() >= 8) {
-            this.password = password;
-        } else {
-            throw new IllegalArgumentException(
-                    "Password must be at least 8 characters long!");
-        }
+        this.password = password;
     }
 }
